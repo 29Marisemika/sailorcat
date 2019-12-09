@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+#nav{
+ height: 70px;
+}
+#nav ul{
+ list-style: none;
+}
+
+#nav > ul > li{
+  float: left;
+  width: 180px;
+  position: relative;
+ }
+
+#nav li a{
+ display: block;
+ background: aquamarine;
+ border: 2px solid rgba(6, 19, 18, 0);
+ border-radius:30px;
+ /* заокругленные  */
+ box-shadow:1px 1px 3px #555;
+ color: #060A13;
+ padding: 8px;
+ text-align: center;
+ text-decoration: none;
+}
+#nav li a:hover{
+ background: #2F718E;}   
+ /* цвет наведения */
+
+#nav li .second{
+ display: none;                 
+ /* скрывает выпадающее меню */
+ position: absolute;
+ top: 100%;
+}
+
+#nav li:hover .second{
+ display: block; 
+ 
+ /* *механизм выпадения* */
+}
+
+#nav li li{
+  width: 180px;
+ }
+ /* ширина вложенных пунктов */
+
+
+ footer {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.Pagination {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+ .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s; 
+  
+  /* переходы */
+}
+#pagination {
+
+
+ }
+
